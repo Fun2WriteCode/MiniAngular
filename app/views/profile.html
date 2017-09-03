@@ -1,0 +1,50 @@
+<h1 style="text-align:center;">Profile Of Single Employee</h1>
+<div ng-init="employeeProfile()">
+<table align="center" border="15" cellpadding="20" >
+    <tr>
+        <th style="color:red;"><u>Employee Name</u></th>
+        <th style="color:red;"><u>Employee Address</u></th>
+        <th style="color:red;"><u>Employee CNIC</u></th>
+        <th style="color:red;"><u>Employee Cantact No</u></th>
+
+    </tr>
+    <tr>
+        <td>{{employee.name}}</td>
+        <td>{{employee.address}}</td>
+        <td>{{employee.cnic}}</td>
+        <td>{{employee.phno}}</td>
+
+
+    </tr>
+</table>
+</div>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br>
+<h1 style="text-align:center;">Detail Of Selected Product</h1>
+
+<div ng-init="productDetail()">
+<table align="center" border="15" cellpadding="20">
+    <tr>
+        <th style="color:red;">
+            <u>Type</u>
+        </th>
+		<th style="color:red;"><u>Color</u></th>
+		<th style="color:red;"><u>Size</u></th>
+		<th style="color:red;"><u>Price</u></th>
+
+    </tr>
+    <tr>
+        <td><a >{{product.type}}</a></td>
+        <td><a>{{product.color}}</a></td>
+        <td><a >{{product.size}}</a></td>
+		<td><a >{{product.price}}</a></td>
+
+
+    </tr>
+</table>
+</div>
